@@ -4,7 +4,7 @@ import {numberWithCommas} from '../utils/utils';
 
 const Menus = ({ menu, masukKeranjang }) => {
   return (
-    <Col md={4} xs={6} className='mb-4'>
+    <Col md={4} xs={6} className='mb-4' style={{ maxHeight: '300px'}}>
       <Card className='shadow' style={{ height: '100%'}} onClick={() => masukKeranjang(menu)}>
         <div className="image-wrapper">
           <Card.Img 
