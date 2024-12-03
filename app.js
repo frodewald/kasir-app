@@ -6,7 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 8000;
 
 const corsOptions = {
-  origin: 'http://localhost:5173',      
+  origin: ['http://localhost:5173', 'https://kasir-app-bice.vercel.app'],      
   methods: 'GET,POST,PUT,DELETE,OPTIONS', 
   allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept', 
   credentials: true 
