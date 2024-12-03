@@ -1,0 +1,45 @@
+body {
+  font-family: 'poppins', serif;
+}
+
+.custom-navbar {
+  background-color: #22668A;
+}
+
+.image-wrapper {
+  width: 100%;
+  padding-top: 75%; /* Mengatur rasio 3:4 */
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Memastikan gambar mengisi area tanpa distorsi */
+}
+
+.btn-primary {
+  background-color: #22668A;
+}
+
+.active-category {
+  background-color: #22668A;
+  color: white;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 60vh;
+  }  
+  .menu {
+    height: 75vh;
+  }
+}
